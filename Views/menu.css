@@ -1,0 +1,8 @@
+th, td, table {
+    border: 1px solid ;
+}
+
+.thA{
+    text-align: center;
+    background-color: yellow;
+}

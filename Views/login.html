@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="container">
+    <div class="container-login">
+        <img src="../images/i2t.jpg" id="logo"><br>
+        <div class="formularios">
+            <input type="text" id="user" placeholder="Usuario">     <br>
+            <input type="password" id="password" placeholder="Contraseña">
+        </div>
+        <div>
+            <button type="submit" class="button" style="vertical-align:middle" onclick="login()"><span>Ingresar</span></button>
+        </div>
+        <div id="error-message" class="error-message"></div>
+    </div>
+</div>
+</body>
+<script src="../Controllers/login.js"></script>
+</html>
